@@ -28,5 +28,4 @@ async def on_message(message):
         with open("quizlet.json") as json_file:
             data = json.load(json_file)
             await message.channel.send(answer)
-#client.run(os.getenv('TOKEN'))
-client.run('ODA4MzY5OTIzMjczMzkyMTY5.YCFjKA.nDpHNihhjN8-6H8n2ca0v17A5mU')
+client.run(os.getenv('TOKEN'))
